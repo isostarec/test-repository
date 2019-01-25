@@ -6,7 +6,7 @@ Created on Fri Jan 25 14:20:59 2019
 """
 
 from app import app
-drom db import db
+from db import db
 
 db.init_app(app)
 
