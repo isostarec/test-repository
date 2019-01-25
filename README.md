@@ -1,12 +1,12 @@
-#Test REST API
+Test REST API
 
-##Instalation
+Instalation
 
-'''
+
 pip install Flask
 python app.py
-'''
 
 
-##Description
+
+Description
 REST API for a store.
