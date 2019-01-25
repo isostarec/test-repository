@@ -21,9 +21,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 app.secret_key='jose'
 api=Api(app)
 
-@app.before_first_request
-def create_tables():
-    db.create_all()
+
 
 #app.config['JWT_AUTH_URL_RULE'] = '/login'                              #kreira /login umjesto /auth potrebno promijenit endpoint u Postmanu
 jwt=JWT(app,authenticate,identity)                                       #JWT kreira /auth endpoint
