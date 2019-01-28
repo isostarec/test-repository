@@ -5,7 +5,6 @@ Created on Tue Jan 22 13:45:43 2019
 @author: Korino
 """
 from flask_restful import Resource, reqparse
-import sqlite3
 from models.user import UserModel
 
 
